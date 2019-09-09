@@ -41,6 +41,8 @@ public final class WebPageCrawler {
             PopulateUrls populateUrls = new PopulateUrls(htmlDocument);
             executorService.execute(populateUrls);
 
+            // Go to the next page and parse the next page. Keep looking until there exists a next button.
+            // Last page would not contain the next button.
             Elements elements = htmlDocument.getElementsByClass("lister-page-next next-page");
             if(elements.size()>0) {
                 currentURL = HOME_URL.concat(elements.get(0).getElementsByTag("a").attr("href"));

@@ -24,6 +24,7 @@ public final class CastExtractor {
 
     public static Map<String, Set<String>> extractCastFromMovies(Map<String, String> map) throws IOException {
         movieCast = new ConcurrentHashMap<>();
+        // Parse each movie and get the cast.
         ExecutorService executorService = Executors.newFixedThreadPool(THREADS);
         for(Map.Entry<String, String> eachMovie: map.entrySet()){
             ExtractCast extractCast = new ExtractCast(eachMovie.getValue(), eachMovie.getKey());
