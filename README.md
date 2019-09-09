@@ -40,6 +40,8 @@ The smallest set is picked first.
 Set2 is picked first and the intersection is checked with set1. The resultant set is checked for intersection with set3.
 The reason is to reduce time complexity. The search becomes O(min(len(set1), len(set2), len(set3)) * number of sets.
 
+ImdbSearchServer.java is the main code with main module and brings up the server on port 8080 and stiches the code together.
+
 ## Dependency:
 
 The code has a maven dependency.
