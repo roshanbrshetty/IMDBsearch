@@ -92,3 +92,43 @@ List of all the movies:
 
 Enter your search here: ^C for exit
 ```
+
+A sample Example:
+
+```
+roshanbrshetty-macbookpro2:~ roshanbrshetty$ nc 127.0.0.1 8080
+Welcome to IMDB Search!!
+Enter your search here: 
+spielberg
+List of all the movies:
+Schindler's List
+Saving Private Ryan
+Shrek
+Back to the Future
+Indiana Jones and the Temple of Doom
+Interstate 60: Episodes of the Road
+Bridge of Spies
+Catch Me If You Can
+Jaws
+Back to the Future Part II
+Indiana Jones and the Last Crusade
+Raiders of the Lost Ark
+Who Framed Roger Rabbit
+True Grit
+The Goonies
+The Blues Brothers
+Close Encounters of the Third Kind
+The Color Purple
+E.T. the Extra-Terrestrial
+Munich
+Empire of the Sun
+In America
+Lawrence of Arabia
+Jurassic Park
+Minority Report
+Letters from Iwo Jima
+Your search results were returned in 0.0339990000 seconds
+
+Enter your search here: ^C for exit
+
+```
