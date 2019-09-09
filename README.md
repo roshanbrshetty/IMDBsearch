@@ -6,6 +6,8 @@ Author: Roshan Shetty
 
 Email: roshanbrshetty@gmail.com
 
+Language: Java 11
+
 ## Objective
 
 Search for the actors among the list of 1000 top movies listed on IMDB. The search is constrained to cast name.
@@ -50,7 +52,6 @@ is the main java file.
 ## Dependency:
 
 The code has a maven dependency.
-Including an executable.
 
 ## Run:
 
