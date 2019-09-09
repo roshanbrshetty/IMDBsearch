@@ -54,7 +54,7 @@ Including an executable.
 
 ## Run:
 
-Download the jar file IMDBsearch/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar
+Download the jar file IMDBsearch/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar  [Jar File](https://github.com/roshanbrshetty/IMDBsearch/blob/master/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar)
 
 From command prompt >
 
