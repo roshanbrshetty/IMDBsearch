@@ -31,8 +31,8 @@ If search is of the format
 “Samuel TOM spielberg” →
 Then the keys are taken separately
 “samuel”      → set1 (length 20)
-“tom”           → set2  (length 15)
-“spielberg”  → set3  (length 50)
+“tom”         → set2  (length 15)
+“spielberg”   → set3  (length 50)
 
 All the sets are placed in a priority queue based on the size of set.
 The smallest set is picked first.
@@ -40,8 +40,29 @@ The smallest set is picked first.
 Set2 is picked first and the intersection is checked with set1. The resultant set is checked for intersection with set3.
 The reason is to reduce time complexity. The search becomes O(min(len(set1), len(set2), len(set3)) * number of sets.
 
-## How to run:
-nc 127.0.0.1 8080
+## Dependency:
+
+The code has a maven dependency.
+Including an executable.
+
+## Run:
+
+Download the jar file IMDBsearch/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+From command prompt >
+
+```
+java -jar ^path^/IMDBsearch/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar
+```
+
+This will take approximately 4 minutes to complete the internal data structures.
+
+A server comes up on 8080 port
+
+On another command prompt
+
+```
+> nc 127.0.0.1 8080
 
 Welcome to IMDB Search!!
 Enter your search here:
@@ -55,6 +76,7 @@ List of all the movies:
 …..
 
 Enter your search here: ^C for exit
+```
 
 
 
