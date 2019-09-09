@@ -56,6 +56,11 @@ the jar file is under
 target
 ```
 
+Time complexity of the code: If there are n search keys.
+m1, m2, m3 are the search result match for each key.
+
+O(min(m1, m2,...))* n
+
 ## Dependency:
 
 The code has a maven dependency.
