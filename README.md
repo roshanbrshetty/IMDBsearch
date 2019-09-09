@@ -2,8 +2,6 @@
 
 Project: Imdb Search
 
-Author: Roshan Shetty
-
 Email: roshanbrshetty@gmail.com
 
 Language: Java 11
