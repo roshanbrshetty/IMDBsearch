@@ -70,7 +70,7 @@ From command prompt >
 java -jar ^path^/IMDBsearch/target/IMDBsearch-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-This will take approximately 4 minutes to complete the internal data structures.
+This will take approximately *4 minutes* to complete the internal data structures.
 
 A server comes up on 8080 port
 
@@ -96,7 +96,7 @@ Enter your search here: ^C for exit
 A sample Example:
 
 ```
-roshanbrshetty-macbookpro2:~ roshanbrshetty$ nc 127.0.0.1 8080
+$ nc 127.0.0.1 8080
 Welcome to IMDB Search!!
 Enter your search here: 
 spielberg
@@ -127,7 +127,7 @@ Lawrence of Arabia
 Jurassic Park
 Minority Report
 Letters from Iwo Jima
-Your search results were returned in 0.0339990000 seconds
+Your search results were returned in 0.0000900000 seconds
 
 Enter your search here: ^C for exit
 
