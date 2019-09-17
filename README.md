@@ -23,7 +23,7 @@ CastExtractor.java extracts the casts from the movies.
 The url is parsed for each of the movie and then look for [“See full cast”](https://www.imdb.com/title/tt6398184/fullcredits?ref_=tt_cl_sm#cast) in the url. This takes us to a page which has a list of the entire cast from director, producer, actors, makeup, costumes, etc. Sample of it is provided in the link above. The code does not differentiate based on the role of the cast. Thus the data we are dealing with here is much higher.
 
 A map of movieCast is a mapping between cast name and a set of movies the cast was involved with.
-The cast name is not taken as is but is preprocessed. “Tom Hanks” is converted to keys “tom hanks” , “tom” and “hanks”. A small set of code is commented. “Samuel L. Jackson” is converted to “samuel”, “samuel l.”, “jackson”, “l. Jackson”, “samuel l. Jackson”. For now anything 2 and below  character length are ignored for simplicity. 
+The cast name is not taken as is but is preprocessed. “Tom Hanks” is converted to keys “tom hanks” , “tom” and “hanks”. A small set of code is commented where in “Samuel L. Jackson” is converted to “samuel”, “samuel l.”, “jackson”, “l. Jackson”, “samuel l. Jackson”. For now anything 2 and below  character length are ignored for simplicity. 
 
 SearchImdb.java is where the search logic is performed. Given any key searches like →
 
